@@ -1,0 +1,14 @@
+Package: SLCMRT
+Type: Package
+Title: Sparse Latent Class Model Incorporating Response time 
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <siqihe2@illinois.edu>
+Description: Fitting sparse latent class models of ordinal responses,
+    the estimation of the joint model for responses and response times.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.12)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.1

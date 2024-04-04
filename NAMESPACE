@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom(stats,rgamma)
+importFrom(stats,rnorm)
+useDynLib(SLCMRT, .registration = TRUE)
